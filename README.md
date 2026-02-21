@@ -20,14 +20,14 @@ In this second part, I challenge the model to predict carbon storage using **exc
 
 ### 1. Model Performance
 
-| Models |  | RMSE (tC/ha) |
+| Models | $R^2$ | RMSE (tC/ha) |
 | --- | --- | --- |
 | **Random Forest** | **0.72** | **212.52** |
 | XGBoost | 0.62 | 247.94 |
 | AdaBoost | 0.45 | 296.00 |
 | Linear Regression | 0.21 | 354.64 |
 
-The **Random Forest** model outperformed others, capturing the non-linear relationships between climate and biomass. The sharp drop in Linear Regression performance () confirms that carbon storage is a complex, non-linear ecological process.
+The **Random Forest** model outperformed others, capturing the non-linear relationships between climate and biomass.
 
 ### 2. Interpreting the Drivers (SHAP Analysis)
 
